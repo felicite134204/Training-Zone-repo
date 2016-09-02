@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Block Elements</title>
+<style>
+body{
+	background-color:orange;
+}
+h1, h3{
+	border: thin dashed black; 
+	font-family:"Gill Sans","Gill Sans MT", "Myriad Pro","DejaVu Sans Condensed",Helvetica, Arial, Sans-serif;
+}
+h2
+{
+	border:thick groove blue;
+	font-family:Cambria, "Hoefler Text","Liberation Serif","Times New Roman", Serif;
+}
+h4{
+	border:thin dotted purple;
+	background-color:silver;
+}
+p{
+	border:thin dotted black;
+	background-color:silver;
+}
+p{
+	border:thin dotted black;
+	background-color:white;
+}
+div{
+	border:thin solid black;
+	background-color:green;
+	/*observe the mesurement units-here RELATIVE units are used*/
+	padding:1em;
+	margin-bottom:2px;
+	margin-top:1ex;
+	margin-left:.5em;
+	margin-right: 20%;
+}
+blockquote{
+	background-color:pink;
+	border: medium solid green;
+	/*observe the ,measurement units-here ABSOLUTE unites are used*/
+	margin: 12cm;
+	margin-left:4in;
+	margin-bottom:3pt;
+	margin-top: .55pc;
+	line-height: 5mm;
+}
+ol{
+	background-color:aqua;
+	border:medium double green;
+}
+#floatimg{
+	float:left;
+	margin:1em 1em 1em 1em;/*change the property (margin) values here and observe*/
+}
+</style>
+</head>
+
+<body>
+<h1> My Block Elements&rarr; using sans serif font family- I don't have little extra strokes on the end of letters</h1>
+<h2>Observe this &rarr; using serif font family- I have little extra strokes on the end of letters</h2>
+<p>This is a paragraph- Observe my background colour & Compare my background colour to my parent element background colour.<br> Question: What is my parent element?<br>
+Paragraph 1, line 3.<br> Paragraph 1, line 4.
+</p>
+
+<div>This is Div. Padding is used here. Also observe my margins - look at the padding and marging measurement units</div>
+<a href="=https://en.wikipedia.org/wiki/Lorem_ipsum">
+<blockquote>
+"this is blockqute links to another page on another website (an absolute reference (URL) is used here). An Absolute Reference provides the complete http address, the directory path, and the file name).<br>Have a good look at my margin unit - see css<br>
+Important: Inline elements can never contain block-level elements except for &lt;a&gt;, here you can see that you can wrap &lt;a&gt; around a block element (the blockquote element in this case)."
+</blockquote></a>
+<h4>Below is an ordered list. Unordered list and the ordered list are also block elements</h4>
+<ol>
+		<li>list a</li>
+       <li>list b</li>
+       <li>list c</li>
+</ol>
+
+<div style="width:70%;">Look here! I am div and my width is set to 70% of the page width.
+	<p style="width:50%">I am a paragram inside a div and my width is set to 50%. Can you see that my width is 50% of this div's width.</p>
+</div>
+<h2 style="border-top-color:red; border-bottom-color:green;border-left-width:2em;border-right-width:5mm;">Note: Forms are also block elements. Also observe my borders (se css).</h2>
+<p><a href="<img src="33012_6240.jpg" width="345" height="253" alt="small feli kazadi"/></a>
+</body>
+</html>
+
+
+      
+
+
+

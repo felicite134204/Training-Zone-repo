@@ -1,0 +1,46 @@
+@charset "utf-8";
+<body>
+<h1>Training Zone</h1>
+
+/* CSS Document */
+
+body {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+}
+
+#menu ul {
+	background-color: #ECD3D3;
+	height: 50px;
+	float:left;
+	padding: 20px;
+}
+
+#menu ul li {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size:11px
+	line-height:50px;
+	color:#F1DBDC;
+	display:inline;
+	margin: 0px 10x;
+}
+
+#menu ul li a {
+	color:#120F0F;
+	text-decoration:none; 
+}
+
+#menu ul li a:hover {
+	color:blue;
+}
+
+
+
+
+
+	
+
+

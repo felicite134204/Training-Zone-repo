@@ -1,0 +1,55 @@
+@charset "utf-8";
+h1 {
+	border: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background-color: orange;
+	padding: .5em;
+	margin: 0;
+}
+
+/* CSS Document */
+
+body {
+	margin: 0;
+	color:black;
+	background-color:gray;
+}
+
+ul {
+	margin: 0;
+}
+
+#menu ul {
+	background-color: green;
+	height: 50px;
+	float:left;
+	padding: 2px;
+}
+
+#menu ul li {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size:11px
+	line-height:50px;
+	color:#F1DBDC;
+	display:inline;
+	margin: 0px 10x;
+}
+
+#menu ul li a {
+	color:#120F0F;
+	text-decoration:none; 
+}
+
+#menu ul li a:hover {
+	color:blue;
+}
+img {
+	float: right;
+	margin-top:0;
+	margin-bottom:0;
+	margin-right:0;
+	margin-left:0;
+}
+body {
+	background-color: #E1D5D6;
+}
